@@ -1,0 +1,92 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #3A4047;
+}
+.header__top{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05)
+}
+.header__title{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+.header__subtitle{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+nav{
+    padding-top: 17px;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+}
+.menu a{
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #3A4047;
+    text-decoration: none;
+    font-weight: 500;
+    padding-top: 17px;
+}
+.menu a:hover{
+    border-top: 2px solid #1AB0CE;
+    color:#1AB0CE;
+}
+.menu img{
+    float: right;
+}
+.header__baner{
+    background: url('/img/header/Rectangle.png'), linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/header/Rectangle.png');;
+    height: 473px;
+    text-align: center;
+}
+.baner__title h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 155px;
+}
+.baner__title p{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 27px;
+}
+.baner__btn a{
+    text-decoration: none;
+    padding:10px 10px 10px;
+    background: #1AB0CE;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+.produkt{
+    padding-top: 27px;
+}
+.produkt__title h2{
+    text-align: center;
+    line-height: 42px;
+    padding-bottom: 24px;
+}
+.produkt__cart{
+    border: 1px solid #DCE1E6;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+
+
+
+
+
+
